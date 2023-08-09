@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://amberpass-dashboard.netlify.app/']
+    origin: ['http://localhost:3000', 'https://amberpass-dashboard.netlify.app']
   }));
 
 // app.use((req, res, next) => {
